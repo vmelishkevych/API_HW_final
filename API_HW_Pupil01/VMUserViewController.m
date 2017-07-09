@@ -42,11 +42,11 @@ static NSString* countryKeyName = @"country";
     
     self.navigationItem.title = @"User";
     
-    self.friendsButton.layer.cornerRadius = 11.f;
+    self.friendsButton.layer.cornerRadius = 5.f;
     
-    self.followersButton.layer.cornerRadius = 11.f;
+    self.followersButton.layer.cornerRadius = 5.f;
     
-    self.subscriptionsButton.layer.cornerRadius = 11.f;
+    self.subscriptionsButton.layer.cornerRadius = 5.f;
 
     
     

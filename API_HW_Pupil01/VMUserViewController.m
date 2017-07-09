@@ -30,7 +30,7 @@
 
 @implementation VMUserViewController
 
-static NSInteger postsInRequest = 20;
+static NSInteger postsInRequest = 10;
 
 static NSString* cityKeyName = @"city";
 static NSString* countryKeyName = @"country";
@@ -41,6 +41,13 @@ static NSString* countryKeyName = @"country";
     // Do any additional setup after loading the view.
     
     self.navigationItem.title = @"User";
+    
+    self.friendsButton.layer.cornerRadius = 11.f;
+    
+    self.followersButton.layer.cornerRadius = 11.f;
+    
+    self.subscriptionsButton.layer.cornerRadius = 11.f;
+
     
     
     if (self.navigationController.viewControllers.count > 1) {
@@ -71,7 +78,6 @@ static NSString* countryKeyName = @"country";
         
         self.firstAppearance = YES;
     }
-    
     
     
     

@@ -34,7 +34,11 @@ extern NSString* const VMApiMethodNameGetFollowers;
 
 @property (weak, nonatomic) IBOutlet UILabel *countryLabel;
 
+@property (weak, nonatomic) IBOutlet UIButton *friendsButton;
 
+@property (weak, nonatomic) IBOutlet UIButton *followersButton;
+
+@property (weak, nonatomic) IBOutlet UIButton *subscriptionsButton;
 
 
 @end

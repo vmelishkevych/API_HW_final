@@ -42,12 +42,12 @@ static NSString* countryKeyName = @"country";
     
     self.navigationItem.title = @"User";
     
-    self.friendsButton.layer.cornerRadius = 5.f;
-    
-    self.followersButton.layer.cornerRadius = 5.f;
-    
-    self.subscriptionsButton.layer.cornerRadius = 5.f;
 
+    for (UIButton* button in self.buttonsArray) {
+        
+        button.layer.cornerRadius = 5.f;
+        
+    }
     
     
     if (self.navigationController.viewControllers.count > 1) {

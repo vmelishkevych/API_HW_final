@@ -180,7 +180,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gs8-yF-Vmi">
-                                                    <rect key="frame" x="7.5" y="3" width="398.5" height="35.5"/>
+                                                    <rect key="frame" x="7.5" y="2.5" width="398.5" height="36"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.92536178690000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -217,13 +217,13 @@
                         <outlet property="countryLabel" destination="xr2-s2-sIg" id="fEz-Z3-d20"/>
                         <outlet property="dateOfBirthLabel" destination="5P0-cF-S42" id="sRU-75-EB7"/>
                         <outlet property="firstNameLabel" destination="N2H-dc-hJ4" id="YDU-j7-Nt4"/>
-                        <outlet property="followersButton" destination="zyc-PJ-OkH" id="YPq-Tu-kUY"/>
-                        <outlet property="friendsButton" destination="r7k-LH-jnf" id="Cgi-V3-19t"/>
                         <outlet property="genderLabel" destination="Os5-BG-WZA" id="Yaz-ud-Pwn"/>
                         <outlet property="lastNameLabel" destination="Ewm-1B-SvM" id="MIn-jE-OBA"/>
-                        <outlet property="subscriptionsButton" destination="bpf-Dm-fDX" id="hf3-aX-Z6K"/>
                         <outlet property="tableView" destination="3pf-ct-lw0" id="N6A-aa-nEY"/>
                         <outlet property="userImage" destination="wTA-TD-SsF" id="Q4I-Wg-uzV"/>
+                        <outletCollection property="buttonsArray" destination="r7k-LH-jnf" id="39c-jd-Fvl"/>
+                        <outletCollection property="buttonsArray" destination="zyc-PJ-OkH" id="pHT-NV-Jw1"/>
+                        <outletCollection property="buttonsArray" destination="bpf-Dm-fDX" id="b3h-RP-QZB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hiA-sF-SEl" userLabel="First Responder" sceneMemberID="firstResponder"/>
